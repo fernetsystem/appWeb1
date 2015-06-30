@@ -1,7 +1,7 @@
 ﻿body {
     font-family: Arial;
-    color: cadetblue;
-    background-color: azure;
+    color: #ffffff ;
+    background-color: #003e4b;
 }
 h1{
     color: #ffffff;
@@ -9,6 +9,6 @@ h1{
 }
 #main{
     padding: 20px;
-    background-color: #ffffff;
+    background-color: ##003e4b;
     border-radius: 0px 4px 4px 4px;
 }

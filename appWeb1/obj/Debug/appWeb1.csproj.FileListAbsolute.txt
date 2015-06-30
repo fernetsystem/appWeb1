@@ -1,0 +1,6 @@
+c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\appWeb1.dll.config
+c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\appWeb1.dll
+c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\appWeb1.pdb
+c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\obj\Debug\appWeb1.csprojResolveAssemblyReference.cache
+c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\obj\Debug\appWeb1.dll
+c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\obj\Debug\appWeb1.pdb
