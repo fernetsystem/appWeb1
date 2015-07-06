@@ -21,10 +21,23 @@
             color: #5c5c5c;
         }
         .dia{
-            width:20px;
-            height:20px;
-            border: 1px solid black;
+            color:#ffffff;
+            width:25px;
+            height:25px;
+            border: 0px solid gray;
             float:left;
+        }
+        .fondoDia1{
+            background-color: #238abe;
+        }
+        div .fondoDia1:hover{
+            background-color: #196185;
+        }
+        .fondoDia2{
+            background-color: #ffa400;
+        }
+        div .fondoDia2:hover{
+            background-color: #cf8603;
         }
         .Verdadero{
             color:#228d16;
@@ -43,9 +56,17 @@
         <p>La suma de 17 + 3 es: @(17+3)</p>
         <p>Informacion de la aplicacion web: @(version+idVersion)</p>
         <h3>Calendario</h3>
-        @for(var n = 1; n < 32; n++)
+        @for (var n = 1; n < 32; n++)
         {
-            <div class="dia">@n</div>
+            if (n == 7 || n==14 || n==21 || n==28)
+            {
+                <div class="dia fondoDia2">@n</div>
+                <div style="clear: both;"></div>
+            }
+            else
+            {
+                <div class="dia fondoDia1">@n</div>
+            }
         }
         <div style="clear: both;"></div>
         @if (edad >= 18)
