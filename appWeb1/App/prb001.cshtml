@@ -5,6 +5,7 @@
     DateTime hoy = DateTime.Now;
     string version = "version ";
     string idVersion = "1.7";
+    int edad = 21;
 }
 
 <!DOCTYPE html>
@@ -24,7 +25,12 @@
             height:20px;
             border: 1px solid black;
             float:left;
-
+        }
+        .Verdadero{
+            color:#228d16;
+        }
+        .Falso{
+            color:#ff003e;
         }
 
     </style>
@@ -41,6 +47,15 @@
         {
             <div class="dia">@n</div>
         }
+        <div style="clear: both;"></div>
+        @if (edad >= 18)
+        {
+            <div class="Verdadero">Eres mayor de edad</div>
+        }else
+        {
+            <div class="Falso">Aun no eres mayor de edad</div>
+        }
+
     </div>
 </body>
 </html>
