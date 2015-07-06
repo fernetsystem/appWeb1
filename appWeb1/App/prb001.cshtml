@@ -1,0 +1,46 @@
+﻿@{
+    var titulo = "Pruebas en ASP";
+    string comentario = "Corriendo ASP";
+    int numeroDeVisitantes = 0;
+    DateTime hoy = DateTime.Now;
+    string version = "version ";
+    string idVersion = "1.7";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@titulo</title>
+    <style type="text/css">
+        *{
+            font-family: 'Century Gothic',Arial;
+            background-color: #f2f2f2;
+            color: #5c5c5c;
+        }
+        .dia{
+            width:20px;
+            height:20px;
+            border: 1px solid black;
+            float:left;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>@comentario</h1>
+        <p>Numero de visitas: @(numeroDeVisitantes+2)</p>
+        <p>Fecha: @hoy</p>
+        <p>La suma de 17 + 3 es: @(17+3)</p>
+        <p>Informacion de la aplicacion web: @(version+idVersion)</p>
+        <h3>Calendario</h3>
+        @for(var n = 1; n < 32; n++)
+        {
+            <div class="dia">@n</div>
+        }
+    </div>
+</body>
+</html>

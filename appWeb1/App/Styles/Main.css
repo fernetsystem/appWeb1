@@ -1,14 +1,69 @@
-﻿body {
-    font-family: Arial;
-    color: #ffffff ;
-    background-color: #003e4b;
+﻿*{
+    font-family:sans-serif;
 }
-h1{
-    color: #ffffff;
+#header-content, #content, #footer-content {
+	width: 760px;
+}
 
+/* header */
+#header {
+	height: 100px;
+	text-align: left;	
+    background-color:#272727;
 }
-#main{
-    padding: 20px;
-    background-color: ##003e4b;
-    border-radius: 0px 4px 4px 4px;
+#header-content {
+	position: relative;
+	margin: 0 auto; padding: 0;
 }
+#header-content #logo {
+	position: absolute;	
+	font: bold 4em  Sans-serif;
+	letter-spacing: -2px; 
+	color: #FFF;
+	margin: 0; padding: 0;
+	
+	/* change the values of left and top to adjust the position of the logo */
+	top: 0; left: 0px;
+}
+#header-content #slogan {
+	position: absolute;	
+	font: bold 1.1em  Sans-serif;
+	text-transform: none;
+	color: #FFF;	
+	margin: 0; padding: 0;
+	
+	/* change the values of left and top to adjust the position of the slogan */
+	top: 55px; left: 40px;
+}
+
+/* header menu */
+#header-content ul {
+	position: absolute;
+	right: -5px; top: 15px;
+	font: bolder 1.3em  sans-serif;
+	color: #FFF;
+	list-style: none;
+	margin: 0; padding: 0;		
+}
+#header-content li {
+	display: inline;
+}
+#header-content li a {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #FFF;
+	background-color: #333;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
+#header-content li a:hover {
+	background: #65944A;
+	color: #FFF;
+}
+#header-content li a#current  {
+	background: #65944A;
+	color: #FFF;
+}
+
+.gray  { color: #BFBFBF; }

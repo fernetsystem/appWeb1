@@ -4,3 +4,16 @@ c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\app
 c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\obj\Debug\appWeb1.csprojResolveAssemblyReference.cache
 c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\obj\Debug\appWeb1.dll
 c:\users\systemxlr\documents\visual studio 2015\Projects\appWeb1\appWeb1\obj\Debug\appWeb1.pdb
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.Helpers.dll
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.Mvc.dll
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.Razor.dll
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.WebPages.dll
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.WebPages.Razor.dll
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.Helpers.xml
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.Mvc.xml
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.Razor.xml
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.WebPages.xml
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SystemXLR\documents\visual studio 2015\Projects\appWeb1\appWeb1\bin\System.Web.WebPages.Razor.xml
