@@ -6,6 +6,7 @@
     string version = "version ";
     string idVersion = "1.7";
     int edad = 21;
+    string[] ciudad = new string[] { "Canada","Berlin","Marruecos"};
 }
 
 <!DOCTYPE html>
@@ -27,6 +28,7 @@
             border: 0px solid gray;
             float:left;
         }
+
         .fondoDia1{
             background-color: #238abe;
         }
@@ -39,6 +41,7 @@
         div .fondoDia2:hover{
             background-color: #cf8603;
         }
+
         .Verdadero{
             color:#228d16;
         }
@@ -69,6 +72,7 @@
             }
         }
         <div style="clear: both;"></div>
+        <br/><br />
         @if (edad >= 18)
         {
             <div class="Verdadero">Eres mayor de edad</div>
@@ -76,6 +80,12 @@
         {
             <div class="Falso">Aun no eres mayor de edad</div>
         }
+        <h3>Destinos disponibles</h3>
+        <lu>
+            <li>@ciudad[0]</li>
+            <li>@ciudad[1]</li>
+            <li>@ciudad[2]</li>
+        </lu>
 
     </div>
 </body>
