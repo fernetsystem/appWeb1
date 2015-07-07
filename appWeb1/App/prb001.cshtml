@@ -1,11 +1,11 @@
-﻿@{
+﻿@{  
     var titulo = "Pruebas en ASP";
     string comentario = "Corriendo ASP";
     int numeroDeVisitantes = 0;
     DateTime hoy = DateTime.Now;
     string version = "version ";
     string idVersion = "1.7";
-    int edad = 21;
+    int edad = 17;
     string[] ciudad = new string[] { "Canada","Berlin","Marruecos"};
 }
 
@@ -81,12 +81,18 @@
             <div class="Falso">Aun no eres mayor de edad</div>
         }
         <h3>Destinos disponibles</h3>
-        <lu>
-            <li>@ciudad[0]</li>
-            <li>@ciudad[1]</li>
-            <li>@ciudad[2]</li>
+        <!--Para cada ciudad pasar valor IN y-->
+        @foreach (var y in ciudad) 
+        {
+            <p>@y</p>
+        }
+        <!--<lu>
+            <li>ciudad[0]</li>
+            <li>ciudad[1]</li>
+            <li>ciudad[2]</li>
         </lu>
-
+        -->
+       
     </div>
 </body>
 </html>
