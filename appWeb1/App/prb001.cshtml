@@ -6,7 +6,25 @@
     string version = "version ";
     string idVersion = "1.7";
     int edad = 17;
-    string[] ciudad = new string[] { "Canada","Berlin","Marruecos"};
+    string[] ciudad = new string[] { "Canada", "Berlin", "Marruecos" };
+
+    string mes = " ";
+    switch (DateTime.Now.Month)
+    {
+        case 1: mes = "Enero";
+            break;
+        case 6: mes = "Junio";
+            break;
+        case 7: mes = "Julio";
+            break;
+        case 8: mes = "Agosto";
+            break;
+        case 9: mes = "Septiembre";
+            break;
+        case 10: mes = "Octubre";
+            break;
+
+    }
 }
 
 <!DOCTYPE html>
@@ -93,7 +111,7 @@
             <li>ciudad[2]</li>
         </lu>
         -->
-        <p>Vuelo 1 sale el Dia @DateTime.Now.Day del Mes @DateTime.Now.Month del Año @DateTime.Now.Year</p>
+        <p>Vuelo 1 sale el Dia @DateTime.Now.Day de @mes del @DateTime.Now.Year</p>
        
     </div>
 </body>
