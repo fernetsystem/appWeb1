@@ -34,44 +34,10 @@
     <meta name="viewport" content="width=device-width" />
     <title>@titulo</title>
     <meta charset="utf-8" />
-    <style type="text/css">
-        *{
-            font-family: 'Century Gothic',Arial;
-            background-color: #f2f2f2;
-            color: #5c5c5c;
-        }
-        .dia{
-            color:#ffffff;
-            width:25px;
-            height:25px;
-            border: 0px solid gray;
-            float:left;
-        }
-
-        .fondoDia1{
-            background-color: #238abe;
-        }
-        div .fondoDia1:hover{
-            background-color: #196185;
-        }
-        .fondoDia2{
-            background-color: #ffa400;
-        }
-        div .fondoDia2:hover{
-            background-color: #cf8603;
-        }
-
-        .Verdadero{
-            color:#228d16;
-        }
-        .Falso{
-            color:#ff003e;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="Styles/Style1.css" />
 </head>
 <body>
-    <div>
+    <div class="content">
         <h1>@comentario</h1>
         <p>Numero de visitas: @(numeroDeVisitantes+2)</p>
         <p>Fecha: @hoy</p>
